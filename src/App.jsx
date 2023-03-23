@@ -1,7 +1,14 @@
 import styles from "./App.module.css"
 
 function App() {
-  return <div className="App"></div>
+  return (
+    <>
+      <div className={styles.nav}>Nav</div>
+      <div className={styles.header}>Header</div>
+      <div className={styles.listContainer}>ListContainer</div>
+      <div className={styles.footer}></div>
+    </>
+  )
 }
 
 export default App
